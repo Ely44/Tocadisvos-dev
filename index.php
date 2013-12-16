@@ -14,26 +14,26 @@
 	<!-- Inicio de la inclusion -->
          <?php
 
-		$file=$_GET['path']; 
+		$file= isset($_GET['path']) ? $_GET['path'] : null ;
 		switch($file) { 
 
-		case principal: 
+		case 'principal': 
 		include('home.php'); 
 		break;
 
-		case page:
+		case 'page':
 		include('pagina.php');
 		break;
 
-		case page2:
+		case 'page2':
 		include('pagina2.php');
 		break;
 
-		case page3:
+		case 'page3':
 		include('pagina3.php');
 		break;
 
-		case page4:
+		case 'page4':
 		include('pagina4.php');
 		break;
 
