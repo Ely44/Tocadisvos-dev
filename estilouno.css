@@ -1,0 +1,91 @@
+@charset "utf-8";
+#principal {
+	-webkit-transition: all 0s ease 0s;
+	-moz-transition: all 0s ease 0s;
+	-ms-transition: all 0s ease 0s;
+	-o-transition: all 0s ease 0s;
+	transition: all 0s ease 0s;
+	width: auto;
+}
+#principal:active {
+	left: 0px;
+	right: auto;
+}
+#principal #home {
+	width: 50px;
+	height: 40px;
+	color: #006633;
+	font-weight: bolder;
+	text-align: center;
+	top: 10px;
+	left: 300px;
+	margin-top: 10px;
+	margin-left: 350px;
+	margin-bottom: 10px;
+}
+#principal #ad1 {
+	width: 800px;
+	height: 150px;
+	margin-left: 100px;
+	text-align: center;
+}
+#principal #ad2 {
+	width: 800px;
+	height: 150px;
+	padding-left: 0px;
+	margin-left: 100px;
+	text-align: center;
+}
+#principal #ads #ad_a {
+	width: 350px;
+	height: 175px;
+	float: left;
+}
+#principal #ads #ad_b {
+	width: 350px;
+	height: 175px;
+	float: left;
+}
+#principal #ads #ada {
+	width: 375px;
+	height: 175px;
+	float: left;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: 50px;
+}
+#principal #ads #adb {
+	width: 375px;
+	height: 175px;
+	float: left;
+}
+#principal #central {
+	width: 900px;
+	height: 295px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+#principal #central #chat {
+	width: 300px;
+	height: 295px;
+	float: left;
+	margin-right: 50px;
+	text-align: center;
+}
+#principal #central #player {
+	width: 550px;
+	height: 295px;
+	float: left;
+	margin-right: 0px;
+	text-align: center;
+}
+#principal #ads {
+	width: 1000px;
+	height: 175px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
