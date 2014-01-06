@@ -20,45 +20,10 @@
 	margin-left: 350px;
 	margin-bottom: 10px;
 }
-#principal #ad1 {
-	width: 800px;
-	height: 150px;
-	margin-left: 100px;
-	text-align: center;
-}
-#principal #ad2 {
-	width: 800px;
-	height: 150px;
-	padding-left: 0px;
-	margin-left: 100px;
-	text-align: center;
-}
-#principal #ads #ad_a {
-	width: 350px;
-	height: 175px;
-	float: left;
-}
-#principal #ads #ad_b {
-	width: 350px;
-	height: 175px;
-	float: left;
-}
-#principal #ads #ada {
-	width: 375px;
-	height: 175px;
-	float: left;
-	padding-right: 0px;
-	padding-left: 0px;
-	margin-right: 50px;
-}
-#principal #ads #adb {
-	width: 375px;
-	height: 175px;
-	float: left;
-}
+
 #principal #central {
 	width: 900px;
-	height: 295px;
+	height: 300px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	padding-right: 50px;
@@ -71,6 +36,7 @@
 	margin-right: 50px;
 	text-align: center;
 }
+
 #principal #central #player {
 	width: 500px;
 	height: 295px;
