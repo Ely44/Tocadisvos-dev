@@ -1,0 +1,131 @@
+@charset "utf-8";
+a_semana {
+	-webkit-transition: all;
+	-moz-transition: all;
+	-ms-transition: all;
+	-o-transition: all;
+	transition: all;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+#principal {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+#principal #cont{
+	widht: 800px;
+	height: auto;
+}
+
+#principal #Logo {
+	width: 140px;
+	height: 200px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 100px;
+	border: 1px dashed white;
+	position: absolute;
+}
+
+#principal .ad {
+	width: 800px;
+	height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px dashed white;
+	position: relative;
+	
+}
+#principal #info #data {
+	width: 200px;
+	height: 300px;
+	float: left;
+	margin-left: auto;
+	margin-right: 15px;
+	margin-top: 25px;
+	border: 1px dashed white;
+}
+
+#principal #info #imagen {
+	width: 450px;
+	height: 350px;
+	float: left;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border:1px dashed white;
+}
+
+#principal #info #sidebar {
+	width: 100px;
+	height: 300px;
+	float: left;
+	margin-right: auto;
+	margin-left: 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	
+	border: 1px dashed white;
+	
+}
+
+#principal #info {
+	width: 800px;
+	height: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 102px;
+	top: 204px;
+	/*position: absolute;
+	left: 100px;
+	top: 203px;*/
+}
+
+#principal #artista {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 30px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: auto;
+}
+
+#principal #info #sidebar .social {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+
+#principal #contenedor {
+	width: 800px;
+	height: 200px;
+	border: 1px dashed white;
+	margin-left: auto;
+	margin-right: auto;
+}
+#principal #contenedor #bio {
+	width: 450px;
+	height: 150px;
+	margin-top: 25px;
+	float: left;
+	margin-left: 0px;
+	margin-right: 100px;
+	border: 1px dashed white;
+}
+#principal #contenedor #logo {
+	width: 140px;
+	height: 200px;
+	float: left;
+	clear: right;
+	margin-right: 10px;
+	border: 1px dashed white;
+}
